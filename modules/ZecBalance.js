@@ -22,7 +22,7 @@ class ZecBalance
 	run() 
 	{
 		// Zec balance and Zec price
-        let zec = $('h2.m-l-md.m-b-none:eq(2)');
+        let zec = $('h2.m-l-md.m-b-none:eq(3)');
 		let zecPrice = this.parseZecPrice();
 		if (zecPrice === false && zec.length == 0) {
 			this.app.log("Can't parse zec price.");
